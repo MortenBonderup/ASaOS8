@@ -1,0 +1,21 @@
+.maindetails_container {
+    display: flex;
+}
+
+.sidebarnav {
+    display: none;
+    margin-top: 37px;
+    margin-left: 10px;
+    min-width: 150px;
+}
+
+.sidebar_link {
+    color: #000000;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 640px) {
+    .sidebarnav {
+        display: block;
+    }
+}
